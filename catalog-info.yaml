@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: cli-backstage-test-component
   annotations:
-    backstage.io/code-coverage: scm-only
+    backstage.io/code-coverage: enabled
 spec:
   lifecycle: experimental
   type: test-repo
