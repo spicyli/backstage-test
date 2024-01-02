@@ -4,7 +4,7 @@ metadata:
   name: cli-backstage-test-component
   annotations:
     backstage.io/code-coverage: scm-only
-    backstage.io/source-location: url:https://github.com/spicyli/backstage-test/tree/main/gocode/
+    backstage.io/source-location: url:https://github.com/spicyli/backstage-test/tree/main/
 spec:
   lifecycle: experimental
   type: test-repo
