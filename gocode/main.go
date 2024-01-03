@@ -2,6 +2,7 @@ package main
 
 import (
     "fmt"
+	"strings"
 )
 
 func main() {
@@ -19,4 +20,20 @@ func MinOfInts(vars [6]int) int {
 	}
 
 	return min
+}
+
+func MaxOfInts(vars [6]int) int {
+	max := vars[0]
+
+	for _, i := range vars {
+		if i > max {
+			max = i
+		}
+	}
+
+	return max
+}
+
+func StringToLower(word string) string {
+	return strings.ToLower(word)
 }
