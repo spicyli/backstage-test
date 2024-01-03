@@ -34,6 +34,6 @@ func MaxOfInts(vars [6]int) int {
 	return max
 }
 
-func StringToLower(word string) string {
-	return strings.ToLower(word)
+func StringToUpper(word string) string {
+	return strings.ToUpper(word)
 }

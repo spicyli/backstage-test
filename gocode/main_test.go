@@ -22,10 +22,10 @@ func TestFunc(t *testing.T) {
 		}
 	})
 
-	t.Run("Valid lowercase", func(t *testing.T) {
-		somestring := "SOMESTRING"
+	t.Run("Valid uppercase", func(t *testing.T) {
+		somestring := "somestring"
 		result := StringToLower(somestring)
-		expected := "somestring"
+		expected := "SOMESTRING"
 		if result != expected {
 			t.Errorf("Incorrect string Value.\nExpected: %v.\nActual: %v\n", expected, result)
 		}
